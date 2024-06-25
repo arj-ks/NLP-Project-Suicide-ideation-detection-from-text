@@ -2,7 +2,7 @@ import streamlit as st
 import joblib
 
 # Load the trained model for suicide ideation
-model = joblib.load(r"C:\Users\arjun\OneDrive\Desktop\NLP\NLP project\Code\classification_suicide.pkl")
+model = joblib.load("classification_suicide.pkl")
 
 # Define the label mapping for binary classification
 labels = {0: 'not suicidal', 1: 'suicidal'}
