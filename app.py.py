@@ -5,7 +5,7 @@ import joblib
 model = joblib.load("classification_suicide.pkl")
 
 # Define the label mapping for binary classification
-labels = {0: 'not suicidal', 1: 'suicidal'}
+labels = {0: 'no suicidal', 1: 'suicidal'}
 
 # Set the title of the Streamlit app
 st.title("Suicide Ideation detection from Text")
